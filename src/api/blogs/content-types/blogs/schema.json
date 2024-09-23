@@ -32,6 +32,9 @@
     "text": {
       "type": "string",
       "required": true
+    },
+    "Description": {
+      "type": "blocks"
     }
   }
 }

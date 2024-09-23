@@ -378,6 +378,7 @@ export interface ApiBlogsBlogs extends Schema.CollectionType {
     title: Attribute.String;
     Date: Attribute.Date;
     text: Attribute.String & Attribute.Required;
+    Description: Attribute.Blocks;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
